@@ -1,0 +1,12 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "TaskFlow — Gerenciador de tarefas com dashboard",
+  "scripts": {
+    "dev:backend":  "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all":  "cd backend && npm install && cd ../frontend && npm install",
+    "db:migrate":   "cd backend && npm run db:migrate",
+    "db:studio":    "cd backend && npm run db:studio"
+  }
+}
